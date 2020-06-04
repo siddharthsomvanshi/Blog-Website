@@ -1,0 +1,28 @@
+@font-face{
+	font-family:seg;
+	src:url('/graphics/default.ttf');
+}
+.jumbotron{
+	top:50px;
+	height:220px;
+}
+.icon{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:80px;
+	width:80px;
+	position:relative;
+}
+.title{
+	font-family:seg;
+	color:white;
+	font-size:20px;
+}
+#topbar{
+	height:40px;
+	width:100%;
+	background-color:black;
+	opacity:0.8;
+	position:fixed;
+}

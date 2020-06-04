@@ -1,0 +1,83 @@
+#logo{
+	position:relative;
+	height:70px;
+	width:150px;
+	top:-25px;
+}
+#myCarousel{
+	height:100%;
+}
+.navbar-inverse{
+	position:fixed;
+	width:100%;
+	z-index:100;
+	opacity:0.8;
+}
+.post
+{
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 0 0 1px #CCC;
+	margin-top:20px;
+}
+.post img
+{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+.post .content
+{
+    padding: 15px;
+}
+.post .author
+{
+    font-size: 11px;
+    color: #737373;
+    padding: 25px 30px 20px;
+}
+.post .post-img-content
+{
+    height: 196px;
+    position: relative;
+}
+.post .post-img-content img
+{
+    position: absolute;
+}
+.post .post-title
+{
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 2;
+    position: relative;
+}
+.post .post-title b
+{
+    background-color: rgba(51, 51, 51, 0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #FFF;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+.item{
+	width:100%;
+	height:300px;
+	position:relative;
+}
+.corImage{
+	width:100%;
+	height:300px;
+	position:relative;
+}
+.jumbtronTITLE{
+	font-family:comic sans ms;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+	margin-top:15px;
+}

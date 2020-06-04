@@ -1,0 +1,80 @@
+@font-face{
+	font-family:seg;
+	src:url('/graphics/default.ttf');
+}
+table{
+	width:100%;
+	border-collapse: collapse;
+}
+.headrow{
+	
+}
+th{
+	padding:10px;
+	text-align:center;
+	color:white;
+	font-family:seg;
+	font-size:18px;
+}
+tr{
+	
+	background-color:white;
+}
+tr:hover {
+	background-color: #f2f2f2;
+}
+td{
+	font-family:seg;
+	padding:10px;
+	text-align:left;
+	font-size:15px;
+	color:black;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.viewBTN{
+	background:url('/graphics/view.png');
+	background-size:cover;
+	height:21px;
+	width:21px;
+	border:none;
+}
+.deleteBTN{
+	background:url('/graphics/delete.png');
+	background-size:cover;
+	height:21px;
+	width:21px;
+	border:none;
+}
+.renameBTN{
+	background:url('/graphics/rename.png');
+	background-size:cover;
+	height:21px;
+	width:21px;
+	border:none;
+}
+.viewBTN:hover{
+transition:all 0.5s;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.deleteBTN:hover{
+transition:all 0.5s;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.renameBTN:hover{
+transition:all 0.5s;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.prompt{
+position:fixed;
+left:30%;
+top:25%;
+background-color:black;
+border-radius: 25px;
+height:300px;
+width:500px;
+}
